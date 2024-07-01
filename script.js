@@ -17,7 +17,7 @@ async function login() {
                 window.location.href = 'staff.html';
             }
         } else {
-            alert('Invalid login');
+            alert('Please ensure item name is "Sign" and quantity is max 4.');
         }
     } catch (error) {
         console.error('Error fetching users:', error);
